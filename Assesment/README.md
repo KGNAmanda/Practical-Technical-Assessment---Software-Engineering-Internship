@@ -1,6 +1,6 @@
 # Micronsoft Solutions Technical Assessment - Complete Solution
 
-## 📋 Project Overview
+## Project Overview
 
 This is a complete implementation of three technical challenges for Micronsoft Solutions:
 1. **High-Concurrency Management** - Concurrent purchase handling with stock integrity
@@ -9,7 +9,7 @@ This is a complete implementation of three technical challenges for Micronsoft S
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Backend Stack
 - **Framework**: Django 6.0.4 with Django REST Framework
@@ -24,7 +24,7 @@ This is a complete implementation of three technical challenges for Micronsoft S
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - Python 3.8+
@@ -61,7 +61,7 @@ This is a complete implementation of three technical challenges for Micronsoft S
 
 ---
 
-## 📊 Challenge 01: High-Concurrency Management
+## Challenge 01: High-Concurrency Management
 
 ### Objective
 Manage concurrent purchase requests while ensuring stock never goes below zero.
@@ -133,7 +133,7 @@ Success Rate: 50.00%
 
 ---
 
-## 📈 Challenge 02: Big Data Aggregation & Query Optimization
+##  Challenge 02: Big Data Aggregation & Query Optimization
 
 ### Objective
 Populate 100,000 transaction records and provide analytics under 500ms response time.
@@ -199,7 +199,7 @@ Total Revenue: $1,234,567.89
 
 ---
 
-## 🛒 Challenge 03: Mini POS System
+##  Challenge 03: Mini POS System
 
 ### Objective
 Build a complete Point of Sale interface with transactional integrity.
@@ -273,7 +273,7 @@ Styled for 80mm thermal printer standard:
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 ### Base URL
 ```
@@ -292,7 +292,7 @@ http://localhost:8000/api
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### 1. Test Concurrency (Challenge 01)
 ```bash
@@ -322,7 +322,7 @@ Expected result: All items deducted, receipt generated, transaction recorded
 
 ---
 
-## 🔍 Database Schema
+##  Database Schema
 
 ### Product Model
 ```python
@@ -370,7 +370,7 @@ Purchase:
 
 ---
 
-## 🎯 Performance Metrics
+##  Performance Metrics
 
 ### Challenge 01: Concurrency
 - **Concurrent Requests**: 100
@@ -393,7 +393,7 @@ Purchase:
 
 ---
 
-## 🛠️ Development Notes
+## Development Notes
 
 ### Concurrency Strategy
 - Used Django's `select_for_update()` for pessimistic locking
@@ -414,7 +414,7 @@ Purchase:
 
 ---
 
-## 📦 File Structure
+## File Structure
 
 ```
 Assesment/
@@ -443,7 +443,7 @@ Assesment/
 
 ---
 
-## ✅ Verification Checklist
+##  Verification Checklist
 
 - [x] Challenge 01: Concurrency handled with `select_for_update()`
 - [x] Challenge 01: Test script fires 100 concurrent requests
@@ -461,7 +461,7 @@ Assesment/
 
 ---
 
-## 🎓 Technical Insights
+##  Technical Insights
 
 ### Why select_for_update() is essential
 ```
@@ -494,7 +494,7 @@ Database approach:
 
 ---
 
-## 📞 Support
+##  Support
 
 For questions or issues:
 1. Check error logs in Django console
@@ -504,5 +504,3 @@ For questions or issues:
 
 ---
 
-**Assessment Completed**: May 2, 2026
-**Solution Status**: ✅ Ready for Production
